@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fieldset</title>
+</head>
+<body>
+
+<h1 style="font-size: 20px;"> Student Bank Account Opening Form </h1>
+
+<form action="https://httpbin.org/post" method="post" target="_blank">
+    <fieldset>
+
+        <legend>STUDENT DETAILS </legend>
+
+
+<label for="Full Name"> Full name </label>
+<br>
+<input type="name" placeholder="surname" id="Full Name" name="Full Name">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="name" placeholder="first name" id="Full Name" name="Full Name" required>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="name" placeholder="second name" id="Full Name" name="Full Name" required>
+<br><br><br>
+<label for="date of birth" > Date Of Birth </label>
+<input type="date" placeholder="date of birth" id="date of birth" name="date of birth" required>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<label for="email">E-Mail</label>
+
+<input type="email" placeholder="email" id="email" name="email" required>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+
+<label for="mobile">Mobile:</label>
+    <input type="tel" placeholder="enter your phone number" id="mobile" name="mobile" required>
+
+
+</fieldset>
+ 
+<br><br>
+
+<fieldset>
+
+    <legend>PARENTS DETAILS</legend>
+
+    <label for="mother name"> mother name </label>
+    <br>
+    <input type="name" placeholder="surname" id="mother name" name="mother name">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="name" placeholder="first name" id="mother name" name="mother name" required>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="name" placeholder="second name" id="mother name" name="mother name" required>
+    <br><br><br>
+
+    <label for="father name"> father name </label>
+    <br>
+    <input type="name" placeholder="surname" id="father name" name="father name">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="name" placeholder="first name" id="father name" name="father name" required>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="name" placeholder="second name" id="father name" name="father name" required>
+    <br><br><br>
+
+
+</fieldset>
+
+
+<br><br>
+
+<fieldset>
+    <legend>ADDRESS</legend>
+
+    <label for="address"> address </label>
+<br><br>
+<input type="text" placeholder="address line 1" id="address" name="address">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="text" placeholder="address line 2" id="address" name="address">
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <input type="text" placeholder="city" id="address" name="address">
+<br><br>
+<label for="STATE">STATE</label>
+
+<input type="text" placeholder="state" id="STATE" name="STATE">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<label for="POSTAL/ZIP CODE">POSTAL/ZIP CODE</label>
+
+<input type="text" placeholder="POSTAL/ZIP CODE" id="POSTAL/ZIP CODE" name="POSTAL/ZIP CODE">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+
+
+
+<label for="COUNTRY">COUNTRY</label>
+<select id="COUNTRY" name="COUNTRY">
+
+    <option>SELECT YOUR COUNTRY</option>
+    <option value="INDIA">INDIA</option>
+    <option value="PAKISTAN">PAKISTAN</option>
+    <option value="BANGLADESH">BANGLADESH</option>
+    <option value="AMERICA">AMERICA</option>
+    <option value="RUSSIA">RUSSIA</option>
+    <option value="CHINA">CHINA</option>
+</select>
+
+</fieldset>
+
+<br><br><br><br><br><br>
+
+<label for="EDUCTIONAL LEVEL">EDUCTIONAL LEVEL:</label>
+    <input type="radio" name="EDUCTIONAL LEVEL" value="HIGH SCHOOL OR BELOW"> HIGH SCHOOL OR BELOW
+    <input type="radio"name="EDUCTIONAL LEVEL" value="UNDERGRADUATE"> UNDERGRADUATE
+    <input type="radio" name="EDUCTIONAL LEVEL" value="MASTERS DEGREE"> MASTERS DEGREE
+    <input type="radio" name="EDUCTIONAL LEVEL" value="PhD"> PhD
+
+    <br><br><br><br><br><br>
+<label for="FORM OF IDENTIFICATION">FORM OF IDENTIFICATION:</label>
+<input type="checkbox" name="FORM OF IDENTIFICATION" value="NATIONAL ID CARD"><span>NATIONAL ID CARD</span>
+<input type="checkbox" name="FORM OF IDENTIFICATION" value="DRIVER'S LICENCE"><span>DRIVER'S LICENCE</span>
+<input type="checkbox" name="FORM OF IDENTIFICATION" value="INTERNATIONAL PASSPORT"><span>INTERNATIONAL PASSPORT</span>
+<input type="checkbox" name="FORM OF IDENTIFICATION" value="STUDENT ID CARD"><span>STUDENT ID CARD</span>
+
+<br><br><br><br><br><br>
+
+    <label for="ACCOUNT TYPE">ACCOUNT TYPE</label>
+<select name="ACCOUNT TYPE">
+
+    <option>SELECT YOUR ACCOUNT TYPE</option>
+    <option value="SAVINGS ACCOUNT">SAVINGS ACCOUNT</option>
+    <option value="CURRENT ACCOUNT">CURRENT ACCOUNT</option>
+    <option value="DEPOSIT ACCOUNT">DEPOSIT ACCOUNT</option>
+    <option value="RECURRING DEPOSIT ACCOUNT">RECURRING DEPOSIT ACCOUNT</option>
+    
+    
+</select>
+
+<br><br><br><br><br><br>
+
+<label for="ACCOUNT CATEGORY">ACCOUNT CATEGORY</label>
+<select name="ACCOUNT CATEGORY">
+
+    <option>SELECT YOUR ACCOUNT CATEGORY</option>
+    <option value="SINGLE ACCOUNT">SINGLE ACCOUNT</option>
+    <option value="JOINT ACCOUNT">JOINT ACCOUNT</option>
+    <option value="BUSINESS ACCOUNT">BUSINESS ACCOUNT</option>
+    
+    
+    
+</select>
+
+<br><br><br><br><br><br>
+
+<label for="MONTHLY SALARY">MONTHLY SALARY</label>
+<select name="MONTHLY SALARY" required>
+
+    <option>SELECT YOUR SALARY</option>
+    <option value="0-50000">0-50000</option>
+    <option value="50000-100000">50000-100000</option>
+    <option value="100000-1000000">100000-1000000</option>
+    <option value="1000000 and above">1000000 and above </option>
+    
+</select>
+
+<br><br><br><br><br><br>
+
+<input type="submit" style="font-size: 30px;color: rgb(15, 246, 88);">
+
+</form>
+</body>
+</html>

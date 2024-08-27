@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>20.08.2024</title>
+</head>
+<body>
+
+
+<form action="https://httpbin.org/post" method="post" target="_blank">
+
+
+    <label for="username">name:</label>
+    <input type="text" id="username" name="username" >
+
+    <br><br>
+
+    <label for="email">email:</label>
+    <input type="email" placeholder="enter your email" id="email" name="email" required>
+
+    <br><br>
+
+    
+<!--password pattern making and validation-->
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" 
+               pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@$!%*?&#]).{8,}" 
+               title="Must contain at least one number, one uppercase letter, one lowercase letter, one special character, and be at least 8 characters long." 
+               placeholder="enter your password" id="password" name="password" required> 
+
+    <br><br>
+
+    <label for="mobile">mobile:</label>
+    <input type="tel" placeholder="enter your phone number" id="mobile" name="mobile" required>
+
+    <br><br>
+
+    <input type="submit">
+
+</form>
+
+
+</body>
+</html>
